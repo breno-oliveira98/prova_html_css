@@ -1,8 +1,33 @@
 section img {
     width: 285px;
-    height: 340px;
+    height: 200px;
 }
 
-.carousel-inner {
-    
+section#cards {
+    display: flex;
+    gap: 10px;
+}
+
+.card {
+    width: 18em;
+    height: 29em;
+    margin-bottom: 10px;
+}
+
+a.btn {
+    text-align: center;
+}
+
+a.btn.btn-primary {
+    font-size: 0.9em;
+    display: flex;
+    width: 5.5em;
+    margin-bottom: 8px;
+
+}
+
+a.btn.btn-secondary {
+    font-size: 0.9em;
+    display: flex;
+    width: 11.5em;
 }
